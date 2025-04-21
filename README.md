@@ -89,6 +89,7 @@ or
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
+![Screenshot 2025-04-21 152542](https://github.com/user-attachments/assets/fbf5fd12-c17e-47de-8dfa-5a2c32c2168c)
 
 ### Fig 5:cds.lib file Creation
 
@@ -99,8 +100,8 @@ or
 •	We are simulating verilog design without using any libraries 
 
 •	A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
+![Screenshot 2025-04-21 152601](https://github.com/user-attachments/assets/5459ceb5-fd8f-4332-90e9-c3344481c6e6)
 
-![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
 
 ### Fig 6: Selection of Don’t include any libraries
 
@@ -111,8 +112,11 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![Screenshot 2025-04-21 152647](https://github.com/user-attachments/assets/d8406b82-0795-42c1-8abd-304b3aa0760b)
 
 ### Fig 7: Nclaunch Window
+![Screenshot 2025-04-21 152837](https://github.com/user-attachments/assets/aee88491-d722-4267-aee9-bde4b1573d9f)
+
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
@@ -132,6 +136,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
 ### Fig 8: Compiled database in worklib
+![Screenshot 2025-04-21 153424](https://github.com/user-attachments/assets/5597bc8f-c0a5-4db7-a688-542f12126caa)
 
 	After compilation it will come under worklib you can see in right side window
 
@@ -140,6 +145,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
+![Screenshot 2025-04-21 153517](https://github.com/user-attachments/assets/86860ead-94f9-4ea6-95bc-149042bebb5b)
+
 	Inputs: Top level design / test bench Verilog codes 
 
 	Outputs: Elaborate database updated in mapped library if successful, generates report else error reported in log file 
@@ -167,10 +174,13 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Steps for simulation – Run the simulation command with simulator options
 
 ### Fig 10: Design Browser window for simulation
+![Screenshot 2025-04-21 154355](https://github.com/user-attachments/assets/67baa86b-3fd5-4059-b5f3-209fe8b1f619)
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+![Screenshot 2025-04-21 154414](https://github.com/user-attachments/assets/fc041346-e4b9-45e0-a4fe-9ee5852714c8)
 
 ### Fig 12: Simulation Waveform Window
+![Screenshot 2025-04-21 154432](https://github.com/user-attachments/assets/ebf2771d-315b-4c6b-82c9-8dae8fde84af)
 
 ### Result:
 
